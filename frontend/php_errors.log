@@ -1,0 +1,18 @@
+[27-Apr-2016 05:11:22 UTC] PHP Parse error:  syntax error, unexpected ''url'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/ubuntu/workspace/app/frontend/themes/adminlte/layouts/left.php on line 39
+[27-Apr-2016 05:11:22 UTC] PHP Stack trace:
+[27-Apr-2016 05:11:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/frontend/web/index.php:0
+[27-Apr-2016 05:11:22 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/app/frontend/web/index.php:18
+[27-Apr-2016 05:11:22 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/app/vendor/yiisoft/yii2/base/Application.php:375
+[27-Apr-2016 05:11:22 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/app/vendor/yiisoft/yii2/web/Application.php:84
+[27-Apr-2016 05:11:22 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/app/vendor/yiisoft/yii2/base/Module.php:454
+[27-Apr-2016 05:11:22 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/app/vendor/yiisoft/yii2/base/Controller.php:154
+[27-Apr-2016 05:11:22 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/app/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/app/vendor/yiisoft/yii2/base/InlineAction.php:55
+[27-Apr-2016 05:11:22 UTC] PHP   8. frontend\controllers\SiteController->actionIndex() /home/ubuntu/workspace/app/vendor/yiisoft/yii2/base/InlineAction.php:55
+[27-Apr-2016 05:11:22 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/app/frontend/controllers/SiteController.php:75
+[27-Apr-2016 05:11:22 UTC] PHP  10. yii\base\Controller->renderContent() /home/ubuntu/workspace/app/vendor/yiisoft/yii2/base/Controller.php:378
+[27-Apr-2016 05:11:22 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/app/vendor/yiisoft/yii2/base/Controller.php:392
+[27-Apr-2016 05:11:22 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/app/vendor/yiisoft/yii2/base/View.php:247
+[27-Apr-2016 05:11:22 UTC] PHP  13. require() /home/ubuntu/workspace/app/vendor/yiisoft/yii2/base/View.php:325
+[27-Apr-2016 05:11:22 UTC] PHP  14. yii\base\View->render() /home/ubuntu/workspace/app/frontend/themes/adminlte/layouts/main.php:51
+[27-Apr-2016 05:11:22 UTC] PHP  15. yii\base\View->renderFile() /home/ubuntu/workspace/app/vendor/yiisoft/yii2/base/View.php:149
+[27-Apr-2016 05:11:22 UTC] PHP  16. yii\base\View->renderPhpFile() /home/ubuntu/workspace/app/vendor/yiisoft/yii2/base/View.php:247
